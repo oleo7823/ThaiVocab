@@ -141,7 +141,7 @@ function displayResults(results) {
             `<button class="audio-button" onclick="playAudio('${word.sound}')">播放音频</button>` : '';
 
         wordCard.innerHTML = `
-            <div class="word-thai">${word.thai} ${audioButton}</div>
+            <div class="word-thai">${word.thai} ${word.pos ? `<span class="pos-tag">${word.pos}</span>` : ''} ${audioButton}</div>
             <div class="translations">
                 <div>中文：${word.trans_cn || ''}</div>
                 ${word.ipa ? `<div>国际音标：${word.ipa}</div>` : ''}

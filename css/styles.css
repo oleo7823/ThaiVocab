@@ -357,6 +357,22 @@ h1 {
     gap: 15px;
 }
 
+.pos-tag {
+    font-size: 14px;
+    color: #666;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    height: fit-content;
+    margin-right: auto;
+}
+
 .thai-text {
     font-size: 30px;
     margin-bottom: 15px;
